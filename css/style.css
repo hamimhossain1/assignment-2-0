@@ -2,21 +2,98 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: rgb(232, 255, 196);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-/*........ navbar start......... */
-.influencer{
     width: 1144px;
     margin: auto;
-    display: flex;
-    
 }
-
+/*............... navbar start................ */
+.influencer{
+    display: flex;
+    justify-content: space-between;
+}
+.as-influencer{
+        position: relative;
+        transition-delay: 0s;
+        transition-duration: 3s;
+        transition: transform 2s;
+        transition-timing-function: ease-in-out;
+      }
+      .as-influencer:hover{
+        transform: rotatex(360deg)
+      }
 ul li a{
     text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+ul li i{
+    margin-left: 15px;
 }
 ul li{
     list-style: none;
     margin: top;
 }
+/*............ navbar finish.................... */
+/* .............start journey start............  */
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20rem;
+    margin-top: 100px;
+}
+.button {
+    background-color: DodgerBlue;
+    border: none;
+    color: rgb(247, 243, 243);
+    border-radius: 20px;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: RoyalBlue;
+  }
+/* ..............start journey finish.............. */
+/* .................start logo div................  */
+.social-container{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 55px;
+    padding: 25px 20px;
+    border-radius: 15px;
+}
+.social-media-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+/* ..................finish logo div................  */
+/* .............start popular collection.............. */
+.popular{
+    
+}
+.popular-container{
+    
+}
+.popular-tag{
+    text-align: center;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 60px;
+    grid-row-gap: 15px;
+}
+.pop-container{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+/* ...............finish popular collection.............. */
