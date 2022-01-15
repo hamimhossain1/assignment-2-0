@@ -1,0 +1,27 @@
+@media (max-width:576px) and (min-width: 300){
+    .influencer container{
+        display: block;
+    }
+    @media (max-width:576px) and (min-width: 300){
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-container{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+@media all and (max-width: 600px) {
+    body {
+        color: red;
+        display: block;
+    }
+    start-journey {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}    
+@media all and (max-width: 600px) {
+    footer-div
+
+}
