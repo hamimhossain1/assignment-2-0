@@ -5,8 +5,13 @@ body{
     background-color: rgb(232, 255, 196);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* width: 1144px; */
+    /* margin: auto; */
+}
+.container{
     width: 1144px;
     margin: auto;
+    overflow: hidden;
 }
 /*............... navbar start................ */
 .influencer{
@@ -142,5 +147,6 @@ ul li{
     padding-bottom: 40px;
     padding-top: 30px;
     text-align:center;
+    
 }
 /* ....................end footer ................... */
